@@ -28,7 +28,7 @@
                         <tr>
                             <td>${row.IDX }</td>
                             <td class="title">
-                                <a href="#this" name='title'>${row.TITLE }</a>
+                                <a href="#" name='title'>${row.TITLE }</a>
                                 <input type="hidden" id="IDX" value="${row.IDX }">
                             </td>
                             <td>${row.HIT_CNT }</td>

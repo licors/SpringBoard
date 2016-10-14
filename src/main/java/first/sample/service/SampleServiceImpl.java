@@ -26,7 +26,7 @@ public class SampleServiceImpl implements SampleService{
 	@Override
 	public void insertBoard(Map<String, Object> map) throws Exception {
 		// TODO Auto-generated method stub
-		sampleDAO.selectBoardList(map);
+		sampleDAO.insertBoard(map);
 	}
 
 	@Override
