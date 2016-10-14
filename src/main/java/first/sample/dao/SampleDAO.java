@@ -35,4 +35,15 @@ public class SampleDAO extends AbstractDAO{
 	public void deleteBoard(Map<String, Object> map) throws Exception{
 		update("sample.deleteBoard", map);
 	}
+	
+	public void insertFile(Map<String, Object> map) {
+		// TODO Auto-generated method stub
+		insert("sample.insertFile",map);
+	}
+	
+	@SuppressWarnings("unchecked")
+	public List<Map<String, Object>> selectFileList(Map<String, Object> map) {
+		// TODO Auto-generated method stub
+		return (List<Map<String,Object>>)selectList("sample.selectFileList",map);
+	}
 }
